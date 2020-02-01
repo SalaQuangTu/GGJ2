@@ -1,11 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class HappynessManager : MonoBehaviour
 {
     [Range(0f, 100f)]
     public float happyness = 100f;
+
+    public Slider slider;
 
     public List<float> instrumentsCasse = new List<float>();
 
@@ -26,7 +29,9 @@ public class HappynessManager : MonoBehaviour
         }
         else if(happyness <= 0)
         {
-
+            Debug.Log("Perdu");
         }
+
+        slider.value = happyness;
     }
 }
