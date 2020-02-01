@@ -58,7 +58,7 @@ public class Instrument : MonoBehaviour
 
     private void Update()
     {
-        if(apparition.Length != 0)
+        if(apparition.Length != 0 && nbApparition < apparition.Length)
         {
             if (prochaineApparition < apparition[nbApparition])
             {
@@ -71,7 +71,7 @@ public class Instrument : MonoBehaviour
             }
         }
         
-        if(arret.Length != 0)
+        if(arret.Length != 0 && nbArret < arret.Length)
         {
             if (prochainArret < arret[nbArret])
             {
