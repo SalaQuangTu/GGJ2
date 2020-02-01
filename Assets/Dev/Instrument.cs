@@ -112,6 +112,8 @@ public class Instrument : MonoBehaviour
                     jeSuisCasse = false;
                     jeSuisEnReparation = false;
 
+                    HM.instrumentsCasse.Remove(HM.instrumentsCasse[nbCasse]);
+
                     prochainCassage = Random.Range(min, max);
                 }
                 else
