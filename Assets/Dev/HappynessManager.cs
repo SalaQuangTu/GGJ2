@@ -5,6 +5,10 @@ using UnityEngine.UI;
 
 public class HappynessManager : MonoBehaviour
 {
+    public Text youWin;
+    public Text youLoose;
+
+    public LevelSelector lvlSelector;
     [Range(0f, 100f)]
     public float happyness = 100f;
 
@@ -15,6 +19,8 @@ public class HappynessManager : MonoBehaviour
     private void Start()
     {
         happyness = 100;
+        youWin.gameObject.SetActive(false);
+        youLoose.gameObject.SetActive(false);
     }
 
     private void Update()
@@ -23,13 +29,15 @@ public class HappynessManager : MonoBehaviour
         {
             happyness += Time.deltaTime;
         }
-        else if(instrumentsCasse.Count > 0)
+        else if(instrumentsCasse.Count > 0 && happyness > 0)
         {
             happyness -= Time.deltaTime * instrumentsCasse.Count;
         }
         else if(happyness <= 0)
         {
-            Debug.Log("Perdu");
+            Debug.Log("Bite");
+            youLoose.gameObject.SetActive(true);
+            lvlSelector.LoadNextLevel();
         }
 
         slider.value = happyness;
