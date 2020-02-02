@@ -9,19 +9,22 @@ public class Instrument : MonoBehaviour
     public HappynessManager HM;
 
     [Space]
+    public Animator animInstru;
+
+    [Space]
     public bool jeJoue;
     public float[] apparition;
-    public float prochaineApparition;
-    public int nbApparition = 0;
+    [HideInInspector] public float prochaineApparition;
+    [HideInInspector] public int nbApparition = 0;
     public float[] arret;
-    public float prochainArret;
-    public int nbArret = 0;
+    [HideInInspector] public float prochainArret;
+    [HideInInspector] public int nbArret = 0;
 
     [Space]
     public bool jeSuisCasse;
-    public bool jeViensDeCasser;
-    public float casse;
-    public int nbCasse;
+    [HideInInspector] public bool jeViensDeCasser;
+    [HideInInspector] public float casse;
+    [HideInInspector] public int nbCasse;
 
     [Space]
     public bool jeSuisEnReparation;
@@ -31,18 +34,20 @@ public class Instrument : MonoBehaviour
 
     [Space]
     public QTE[] qte;
-    public int etape;
+    [HideInInspector] public int etape;
     public float tempsEntreQTE = 0.1f;
-    public float timerEntreQTE = 0f;
+    [HideInInspector] public float timerEntreQTE = 0f;
     public float reaction = 0.2f;
-    public float timerReaction = 0f;
+    [HideInInspector] public float timerReaction = 0f;
     public float tempsDeMaintiens = 0.2f;
-    public float tempsMaintenu = 0f;
-    public bool appuie = false;
+    [HideInInspector] public float tempsMaintenu = 0f;
+    [HideInInspector] public bool appuie = false;
 
     [Space]
     public Image spriteAction;
+    public Image spritePut;
     public Image spriteHold;
+    public Image spriteCasse;
     #endregion
 
     private void Start()
@@ -54,6 +59,8 @@ public class Instrument : MonoBehaviour
 
         spriteAction.gameObject.SetActive(false);
         spriteHold.gameObject.SetActive(false);
+        spritePut.gameObject.SetActive(false);
+        spriteCasse.gameObject.SetActive(false);
     }
 
     private void Update()
@@ -66,7 +73,14 @@ public class Instrument : MonoBehaviour
             }
             else
             {
+                animInstru.SetBool("Joue", true);
                 jeJoue = true;
+                if(jeSuisCasse)
+                {
+                    animInstru.SetBool("Casse", true);
+
+                    spriteCasse.gameObject.SetActive(true);
+                }
                 nbApparition++;
             }
         }
@@ -79,12 +93,16 @@ public class Instrument : MonoBehaviour
             }
             else
             {
+                animInstru.SetBool("Joue", false);
+
                 jeJoue = false;
+                spriteCasse.gameObject.SetActive(false);
+
                 nbArret++;
             }
         }
 
-        if(!jeJoue)
+        if(!jeJoue && !jeSuisEnReparation)
         {
             return;
         }
@@ -103,6 +121,10 @@ public class Instrument : MonoBehaviour
         {
             if(jeViensDeCasser)
             {
+                animInstru.SetBool("Casse", true);
+
+                spriteCasse.gameObject.SetActive(true);
+
                 casse = 0;
                 HM.instrumentsCasse.Add(casse);
                 nbCasse = HM.instrumentsCasse.IndexOf(casse);
@@ -124,10 +146,14 @@ public class Instrument : MonoBehaviour
                 {
                     jeSuisCasse = false;
                     jeSuisEnReparation = false;
+                    animInstru.SetBool("Reparation", false);
+                    animInstru.SetBool("Casse", false);
 
                     HM.instrumentsCasse.Remove(casse);
 
                     prochainCassage = Random.Range(min, max);
+
+                    HM.happyness += 5;
                 }
                 else
                 {
@@ -135,14 +161,14 @@ public class Instrument : MonoBehaviour
                     {
                         case QTE.put:
                             {
-                                spriteAction.gameObject.SetActive(true);
+                                spritePut.gameObject.SetActive(true);
 
                                 if (timerReaction < reaction)
                                 {
                                     timerReaction += Time.deltaTime;
                                     if (Input.GetAxis("Fire1") == 1)
                                     {
-                                        spriteAction.gameObject.SetActive(false);
+                                        spritePut.gameObject.SetActive(false);
 
                                         Debug.Log("GG " + qte[etape]);
                                         etape++;
@@ -154,9 +180,12 @@ public class Instrument : MonoBehaviour
                                 }
                                 else
                                 {
-                                    spriteAction.gameObject.SetActive(false);
+                                    spritePut.gameObject.SetActive(false);
 
                                     jeSuisEnReparation = false;
+                                    animInstru.SetBool("Reparation", false);
+
+                                    HM.happyness -= 5;
 
                                     Debug.Log("NUL");
                                 }
@@ -202,6 +231,10 @@ public class Instrument : MonoBehaviour
                                     spriteHold.gameObject.SetActive(false);
 
                                     jeSuisEnReparation = false;
+                                    animInstru.SetBool("Reparation", false);
+
+
+                                    HM.happyness -= 5;
 
                                     Debug.Log("NUL");
                                 }
@@ -223,6 +256,7 @@ public class Instrument : MonoBehaviour
             if (Input.GetAxis("Fire1") == 1 && !jeSuisEnReparation)
             {
                 spriteAction.gameObject.SetActive(false);
+                animInstru.SetBool("Reparation", true);
 
                 jeSuisEnReparation = true;
                 etape = 0;
@@ -234,6 +268,7 @@ public class Instrument : MonoBehaviour
             else if (!jeSuisEnReparation)
             {
                 spriteAction.gameObject.SetActive(true);
+                spriteCasse.gameObject.SetActive(false);
             }
             else
             {
@@ -244,6 +279,23 @@ public class Instrument : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        spriteAction.gameObject.SetActive(false);
+        if(jeSuisEnReparation)
+        {
+            spritePut.gameObject.SetActive(false);
+            spriteHold.gameObject.SetActive(false);
+
+            jeSuisEnReparation = false;
+            animInstru.SetBool("Reparation", false);
+
+            HM.happyness -= 5;
+
+            Debug.Log("NUL");
+        }
+
+        if(jeSuisCasse)
+        {
+            spriteCasse.gameObject.SetActive(true);
+            spriteAction.gameObject.SetActive(false);
+        }
     }
 }
