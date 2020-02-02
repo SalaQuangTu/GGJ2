@@ -1,0 +1,196 @@
+fileFormatVersion: 2
+guid: 240efc4b7099e2c43be73bb86d500d0b
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Archer
+    100002: AvantBrasDroit
+    100004: AvantBrasGauche
+    100006: Bite
+    100008: ChevilleDroite
+    100010: ChevilleDroite(mirrored)
+    100012: Circle006
+    100014: Circle007
+    100016: ClaviculeDroite
+    100018: ClaviculeGauche
+    100020: Contrebasse
+    100022: Corp
+    100024: FemurDroite
+    100026: FemurDroite(mirrored)
+    100028: FrenchHorn
+    100030: HancheDroite
+    100032: HancheDroite(mirrored)
+    100034: HandLeft
+    100036: HandRight
+    100038: Head
+    100040: HumerusGauche
+    100042: HumerusLeft
+    100044: LeftHand
+    100046: MoletDroite
+    100048: MoletDroite(mirrored)
+    100050: //RootNode
+    100052: Neck
+    100054: RightHand
+    100056: Siege
+    100058: SplineBottom
+    100060: SplineMiddle
+    100062: Tambour
+    100064: TopHead
+    100066: Trumpet
+    100068: Violon
+    100070: Violoncelle
+    400000: Archer
+    400002: AvantBrasDroit
+    400004: AvantBrasGauche
+    400006: Bite
+    400008: ChevilleDroite
+    400010: ChevilleDroite(mirrored)
+    400012: Circle006
+    400014: Circle007
+    400016: ClaviculeDroite
+    400018: ClaviculeGauche
+    400020: Contrebasse
+    400022: Corp
+    400024: FemurDroite
+    400026: FemurDroite(mirrored)
+    400028: FrenchHorn
+    400030: HancheDroite
+    400032: HancheDroite(mirrored)
+    400034: HandLeft
+    400036: HandRight
+    400038: Head
+    400040: HumerusGauche
+    400042: HumerusLeft
+    400044: LeftHand
+    400046: MoletDroite
+    400048: MoletDroite(mirrored)
+    400050: //RootNode
+    400052: Neck
+    400054: RightHand
+    400056: Siege
+    400058: SplineBottom
+    400060: SplineMiddle
+    400062: Tambour
+    400064: TopHead
+    400066: Trumpet
+    400068: Violon
+    400070: Violoncelle
+    2100000: TXT_Smoking
+    2100002: 'Material #26'
+    2100004: 'Material #38'
+    2100006: No Name
+    2100008: 'Material #25'
+    2300000: Archer
+    2300002: Contrebasse
+    2300004: FrenchHorn
+    2300006: Siege
+    2300008: Tambour
+    2300010: Trumpet
+    2300012: Violon
+    2300014: Violoncelle
+    3300000: Archer
+    3300002: Contrebasse
+    3300004: FrenchHorn
+    3300006: Siege
+    3300008: Tambour
+    3300010: Trumpet
+    3300012: Violon
+    3300014: Violoncelle
+    4300000: Corp
+    4300002: Siege
+    4300004: Violon
+    4300006: Violoncelle
+    4300008: FrenchHorn
+    4300010: Archer
+    4300012: Trumpet
+    4300014: Tambour
+    4300016: Contrebasse
+    7400000: CHaracter3
+    9500000: //RootNode
+    13700000: Corp
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
