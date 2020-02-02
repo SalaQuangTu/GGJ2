@@ -39,6 +39,8 @@ ModelImporter:
     100066: Trumpet
     100068: Violon
     100070: Violoncelle
+    100072: Clef a molette
+    100074: Flute
     400000: Archer
     400002: AvantBrasDroit
     400004: AvantBrasGauche
@@ -75,11 +77,19 @@ ModelImporter:
     400066: Trumpet
     400068: Violon
     400070: Violoncelle
+    400072: Clef a molette
+    400074: Flute
     2100000: TXT_Smoking
     2100002: 'Material #26'
     2100004: 'Material #38'
     2100006: No Name
     2100008: 'Material #25'
+    2100010: Peau
+    2100012: Visage
+    2100014: Bois
+    2100016: Brass
+    2100018: ClefAMolette
+    2100020: PeauTambour
     2300000: Archer
     2300002: Contrebasse
     2300004: FrenchHorn
@@ -88,6 +98,8 @@ ModelImporter:
     2300010: Trumpet
     2300012: Violon
     2300014: Violoncelle
+    2300016: Clef a molette
+    2300018: Flute
     3300000: Archer
     3300002: Contrebasse
     3300004: FrenchHorn
@@ -96,6 +108,8 @@ ModelImporter:
     3300010: Trumpet
     3300012: Violon
     3300014: Violoncelle
+    3300016: Clef a molette
+    3300018: Flute
     4300000: Corp
     4300002: Siege
     4300004: Violon
@@ -105,6 +119,8 @@ ModelImporter:
     4300012: Trumpet
     4300014: Tambour
     4300016: Contrebasse
+    4300018: Clef a molette
+    4300020: Flute
     7400000: CHaracter3
     9500000: //RootNode
     13700000: Corp
