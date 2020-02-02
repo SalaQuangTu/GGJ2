@@ -123,10 +123,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Musicos (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -143,15 +139,19 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 100056, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100062, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -887,10 +887,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Musicos (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -907,10 +903,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 100056, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -918,6 +910,14 @@ PrefabInstance:
     - target: {fileID: 100062, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100066, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
@@ -1161,10 +1161,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Musicos (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -1181,15 +1177,19 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 100056, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100062, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -1288,10 +1288,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Musicos (4)
       objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -1308,10 +1304,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 100056, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -1319,6 +1311,14 @@ PrefabInstance:
     - target: {fileID: 100062, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100066, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
@@ -1415,10 +1415,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Musicos (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -1435,15 +1431,19 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 100056, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100062, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -1690,10 +1690,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Musicos (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -1710,15 +1706,19 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 100056, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100062, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -1990,10 +1990,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Musicos (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -2010,15 +2006,19 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 100056, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100062, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -2117,10 +2117,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Musicos (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -2137,15 +2133,19 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 100056, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100062, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -2244,10 +2244,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Musicos (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -2264,15 +2260,19 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 100056, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100062, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -2440,10 +2440,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Musicos (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -2460,15 +2456,19 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 100056, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100062, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -2722,10 +2722,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Musicos (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -2742,15 +2738,19 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 100056, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100062, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -3050,10 +3050,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Musicos (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -3070,15 +3066,19 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 100056, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100062, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -3185,10 +3185,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Musicos (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -3205,15 +3201,19 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 100056, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100062, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -3431,10 +3431,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Musicos (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -3451,10 +3447,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 100056, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -3462,6 +3454,14 @@ PrefabInstance:
     - target: {fileID: 100062, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100066, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
@@ -3730,7 +3730,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 774307057}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -2.7, y: 4.42, z: 25.93}
+  m_LocalPosition: {x: -2.7, y: 4.42, z: 26.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 741475560}
@@ -4168,10 +4168,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Musicos (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -4188,10 +4184,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 100056, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -4199,6 +4191,14 @@ PrefabInstance:
     - target: {fileID: 100062, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100066, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
@@ -4578,10 +4578,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Musicos (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -4598,15 +4594,19 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 100056, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100062, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -4752,10 +4752,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Musicos (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -4772,15 +4768,19 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 100056, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100062, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -4954,10 +4954,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Musicos (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -4974,10 +4970,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 100056, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -4985,6 +4977,14 @@ PrefabInstance:
     - target: {fileID: 100062, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100066, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
@@ -5252,10 +5252,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Musicos (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -5272,10 +5268,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 100056, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -5283,6 +5275,14 @@ PrefabInstance:
     - target: {fileID: 100062, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100066, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
@@ -5412,10 +5412,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Musicos (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -5432,15 +5428,19 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 100056, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100062, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -6588,10 +6588,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Musicos (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -6608,10 +6604,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 100056, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -6619,6 +6611,14 @@ PrefabInstance:
     - target: {fileID: 100062, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100066, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
@@ -6715,10 +6715,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Musicos (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -6735,10 +6731,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 100056, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -6746,6 +6738,14 @@ PrefabInstance:
     - target: {fileID: 100062, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100066, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
@@ -6927,10 +6927,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Musicos (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -6947,15 +6943,19 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 100056, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100062, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -7087,10 +7087,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Musicos
       objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -7107,15 +7103,19 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 100056, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100062, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -7253,10 +7253,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Musicos (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -7273,15 +7269,19 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 100056, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100062, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100028, guid: 240efc4b7099e2c43be73bb86d500d0b, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
